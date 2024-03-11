@@ -1,0 +1,122 @@
+/* project */
+#project {
+    background-color: #33186B;
+    padding: 50px 0; /* Mengubah padding menjadi 50px 0 */
+    color: #fff;
+    text-align: center; /* Mengubah alignment menjadi center */
+}
+
+#project > .wrapper > .testimonial-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Menambah margin bawah */
+}
+
+#project > .wrapper > .testimonial-heading > h3 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#project > .wrapper > h3 > span {
+    color: #fff;
+}
+
+#project > .wrapper > p {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Mengubah grid-template-columns */
+    grid-gap: 50px;
+    color: #fff;
+}
+
+
+.grid > .item > p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.grid > .item > .item-detail {
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+}
+
+.grid > .item {
+    background-color: #fff;
+    border: 1px solid #fff;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid > .item > img {
+    width: 150px;
+    height: 200px;
+}
+
+/* About */
+
+#about {
+    background-color: #fff;
+    align-items: center;
+  }
+  
+  #about> .wrapper>h3 {
+  text-align: center;
+  font-size: 100px;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #about> .wrapper>h3>span{
+  color: white  ;
+  }
+  
+  #about> .wrapper>p{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  }
+  
+  #about> .wrapper>div{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  
+  #about> .wrapper>div>.foto{
+  width: 250000px;
+  }
+  
+  #about> .wrapper>div>.foto>img{
+  width: 80%;
+  border-radius: 25px;
+  }
+  
+  #about> .wrapper>div{
+    color: white;
+  }
+  
+  #about> .wrapper>div>.des{
+  width: 100%;
+  padding: 20px;
+  margin: 5px;
+  background-color: #33186B;
+  }
